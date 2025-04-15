@@ -57,14 +57,12 @@ metadata/_edit_use_anchors_ = true
 
 [node name="SinglePlayer" type="Button" parent="TextAndButtons"]
 layout_mode = 2
-anchor_left = 0.031125
-anchor_top = 0.416167
-anchor_right = 0.345125
-anchor_bottom = 0.550167
-offset_left = 0.159996
-offset_top = 0.360001
-offset_right = 0.23999
-offset_bottom = -0.120026
+anchor_left = 0.03125
+anchor_top = 0.416667
+anchor_right = 0.434764
+anchor_bottom = 0.604037
+offset_right = -114.498
+offset_bottom = -38.9061
 scale = Vector2(1.28482, 1.28482)
 theme_override_fonts/font = ExtResource("3_sru4r")
 theme_override_font_sizes/font_size = 64
@@ -74,14 +72,12 @@ metadata/_edit_use_anchors_ = true
 
 [node name="HeadToHead" type="Button" parent="TextAndButtons"]
 layout_mode = 2
-anchor_left = 0.0273438
-anchor_top = 0.656944
-anchor_right = 0.377344
-anchor_bottom = 0.790278
-offset_left = 5.0
-offset_top = -3.0
-offset_right = 4.99997
-offset_bottom = -3.0
+anchor_left = 0.0312501
+anchor_top = 0.652777
+anchor_right = 0.472597
+anchor_bottom = 0.836672
+offset_right = -116.924
+offset_bottom = -36.4034
 scale = Vector2(1.26099, 1.26099)
 theme_override_fonts/font = ExtResource("3_sru4r")
 theme_override_font_sizes/font_size = 64
@@ -135,7 +131,7 @@ offset_right = 501.44
 offset_bottom = -663.08
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 32
-text = "Build date 3/7/25"
+text = "Build date 4/15/25"
 
 [node name="UITransition" parent="." instance=ExtResource("2_hrswe")]
 

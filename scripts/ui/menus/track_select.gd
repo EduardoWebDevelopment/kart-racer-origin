@@ -35,6 +35,9 @@ func _on_bt_3_button_pressed() -> void:
 func _on_go_back_pressed() -> void:
 	_trigger_animation("main_menu")
 
+func _on_sky_garden_button_pressed() -> void:
+	_trigger_animation("gba_sky_garden")
+
 func _on_ui_transition_animation_end(is_fade_out: bool) -> void:
 	if is_fade_out:
 		
