@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://ckhk0y4mp0t5g" path="res://scripts/ui/menus/track_select.gd" id="1_pxu2p"]
 [ext_resource type="Texture2D" uid="uid://dd1t5v6ddjhjx" path="res://assets/images/track_previews/curve_test.png" id="2_i2ugi"]
-[ext_resource type="Script" uid="uid://cmb0mnqih0r8l" path="res://scripts/ui/buttons/grab_focus.gd" id="3_47jlh"]
+[ext_resource type="Script" uid="uid://bq3x73c4mp2rt" path="res://scripts/ui/buttons/grab_focus.gd" id="3_47jlh"]
 [ext_resource type="Texture2D" uid="uid://cwm06g85ijsa8" path="res://assets/images/track_previews/donut_test.png" id="3_nfp05"]
 [ext_resource type="PackedScene" uid="uid://cmwn78o1aco74" path="res://scenes/ui_scenes/transitions/ui_transition.tscn" id="4_bl7co"]
 [ext_resource type="AudioStream" uid="uid://cdsqyk0a6o6ka" path="res://assets/sounds/music/sng_menu.mp3" id="6_amqif"]
@@ -30,9 +30,9 @@ color = Color(0.255341, 0.630284, 0.522835, 1)
 visibility_layer = 2
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.0476562
+anchor_left = 0.123438
 anchor_top = 0.0333333
-anchor_right = 0.247188
+anchor_right = 0.322969
 anchor_bottom = 0.231111
 offset_right = 1021.6
 offset_bottom = 569.6
@@ -59,9 +59,9 @@ metadata/_edit_use_anchors_ = true
 [node name="DonutTest" type="TextureRect" parent="."]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.282812
+anchor_left = 0.358593
 anchor_top = 0.0333333
-anchor_right = 0.482656
+anchor_right = 0.558437
 anchor_bottom = 0.232778
 offset_right = 1023.2
 offset_bottom = 574.4
@@ -83,63 +83,31 @@ theme_override_font_sizes/font_size = 32
 text = "Donut Test"
 metadata/_edit_use_anchors_ = true
 
-[node name="SteamyScrapyard" type="TextureRect" parent="."]
-visible = false
-visibility_layer = 2
+[node name="SkyGarden" type="TextureRect" parent="."]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.510937
-anchor_top = 0.0333334
-anchor_right = 0.710468
-anchor_bottom = 0.231111
-offset_right = 1021.6
-offset_bottom = 569.6
+anchor_left = 0.582813
+anchor_top = 0.0333333
+anchor_right = 0.782657
+anchor_bottom = 0.232778
+offset_right = 1023.2
+offset_bottom = 574.4
 scale = Vector2(0.2, 0.2)
-texture = ExtResource("2_i2ugi")
+texture = ExtResource("3_nfp05")
 metadata/_edit_use_anchors_ = true
 
-[node name="SteamyScrapyardButton" type="Button" parent="SteamyScrapyard"]
+[node name="SkyGardenButton" type="Button" parent="SkyGarden"]
 show_behind_parent = true
 layout_mode = 1
 anchors_preset = -1
-anchor_top = 1.00421
-anchor_right = 0.999764
-anchor_bottom = 2.94521
-offset_right = -1094.7
-offset_bottom = -1271.99
+anchor_right = 1.002
+anchor_bottom = 2.047
+offset_top = 720.0
+offset_right = -1098.56
+offset_bottom = -642.746
 scale = Vector2(7, 7)
 theme_override_font_sizes/font_size = 32
-text = "Steamy Scrapyard"
-autowrap_mode = 2
-metadata/_edit_use_anchors_ = true
-
-[node name="SparklingBeach" type="TextureRect" parent="."]
-visible = false
-visibility_layer = 2
-layout_mode = 1
-anchors_preset = -1
-anchor_left = 0.748438
-anchor_top = 0.0333334
-anchor_right = 0.947969
-anchor_bottom = 0.231111
-offset_right = 1021.6
-offset_bottom = 569.6
-scale = Vector2(0.2, 0.2)
-texture = ExtResource("2_i2ugi")
-metadata/_edit_use_anchors_ = true
-
-[node name="SparklingBeachButton" type="Button" parent="SparklingBeach"]
-show_behind_parent = true
-layout_mode = 1
-anchors_preset = -1
-anchor_top = 0.955056
-anchor_right = 0.999765
-anchor_bottom = 2.90307
-offset_right = -1094.7
-offset_bottom = -1271.99
-scale = Vector2(7, 7)
-theme_override_font_sizes/font_size = 32
-text = "Sparkling Beach"
+text = "GBA Sky Garden"
 autowrap_mode = 2
 metadata/_edit_use_anchors_ = true
 
@@ -147,9 +115,9 @@ metadata/_edit_use_anchors_ = true
 visibility_layer = 2
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.0476562
+anchor_left = 0.123438
 anchor_top = 0.506944
-anchor_right = 0.247188
+anchor_right = 0.322969
 anchor_bottom = 0.704722
 offset_top = 3.05176e-05
 offset_right = 1021.6
@@ -179,9 +147,9 @@ metadata/_edit_use_anchors_ = true
 visibility_layer = 2
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.285156
+anchor_left = 0.360937
 anchor_top = 0.506944
-anchor_right = 0.484687
+anchor_right = 0.560469
 anchor_bottom = 0.704722
 offset_top = 3.05176e-05
 offset_right = 1021.6
@@ -211,9 +179,9 @@ metadata/_edit_use_anchors_ = true
 visibility_layer = 2
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.510938
+anchor_left = 0.586719
 anchor_top = 0.506944
-anchor_right = 0.710469
+anchor_right = 0.786251
 anchor_bottom = 0.704722
 offset_top = 3.05176e-05
 offset_right = 1021.6
@@ -266,8 +234,7 @@ bus = &"SFX"
 
 [connection signal="pressed" from="CurveTest/CurveTestButton" to="." method="_on_curve_test_button_pressed"]
 [connection signal="pressed" from="DonutTest/DonutTestButton" to="." method="_on_donut_test_button_pressed"]
-[connection signal="pressed" from="SteamyScrapyard/SteamyScrapyardButton" to="." method="_on_steamy_scrapyard_button_pressed"]
-[connection signal="pressed" from="SparklingBeach/SparklingBeachButton" to="." method="_on_sparkling_beach_button_pressed"]
+[connection signal="pressed" from="SkyGarden/SkyGardenButton" to="." method="_on_sky_garden_button_pressed"]
 [connection signal="pressed" from="BlenderTrack1/BT1Button" to="." method="_on_bt_1_button_pressed"]
 [connection signal="pressed" from="BlenderTrack2/BT2Button" to="." method="_on_bt_2_button_pressed"]
 [connection signal="pressed" from="BlenderTrack3/BT3Button" to="." method="_on_bt_3_button_pressed"]

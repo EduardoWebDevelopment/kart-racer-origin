@@ -1,8 +1,7 @@
-[gd_scene load_steps=28 format=4 uid="uid://drx7t6cmqq6wr"]
+[gd_scene load_steps=27 format=4 uid="uid://drx7t6cmqq6wr"]
 
-[ext_resource type="Script" uid="uid://c0v5iubc821lo" path="res://scripts/car/gtr.gd" id="1_566jy"]
+[ext_resource type="Script" uid="uid://bwh7xxlrauam6" path="res://scripts/car/gtr.gd" id="1_566jy"]
 [ext_resource type="PackedScene" uid="uid://bmwh6n8gr4wvd" path="res://scenes/ui_scenes/car_ui/car_ui.tscn" id="2_npukf"]
-[ext_resource type="PackedScene" uid="uid://cu6oq4whbnukt" path="res://scenes/ui_scenes/menus/pause_menu.tscn" id="3_p3y23"]
 [ext_resource type="PackedScene" uid="uid://ckfukjwbf37mo" path="res://scenes/ui_scenes/menus/debug_menu.tscn" id="4_ov0e1"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jqvt2"]
@@ -541,8 +540,6 @@ shape = SubResource("ConvexPolygonShape3D_gek65")
 transform = Transform3D(-1, -1.86403e-08, 1.43214e-07, 2.77035e-08, 0.948462, 0.316891, -1.4174e-07, 0.316891, -0.948462, 0, 2.99551, -5.52035)
 
 [node name="Ui" parent="." instance=ExtResource("2_npukf")]
-
-[node name="PauseMenu" parent="." instance=ExtResource("3_p3y23")]
 
 [node name="DebugMenu" parent="." instance=ExtResource("4_ov0e1")]
 
